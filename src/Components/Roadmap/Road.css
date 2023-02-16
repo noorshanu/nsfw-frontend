@@ -8,6 +8,8 @@
   padding-top: 20px;
 
   padding-bottom: 100px;
+  z-index: 50;
+  position: relative;
 }
 @font-face {
   font-family: Monomaniac One;
@@ -25,6 +27,18 @@
   -webkit-text-stroke: 2px #c429f1;
 }
 
+.road_num2 h1 {
+    font-family: Monomaniac One;
+    font-size: 280px;
+    font-weight: 400;
+    line-height: 416px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    text-shadow: 0px 3px 20px #c429f1a1, 0px 3px 20px #c429f138, 0px 4px 28px #c429f152;
+    -webkit-text-stroke: 2px #c429f1;
+  }
+
 .road_num h1:before {
   content: "";
   display: block;
@@ -35,7 +49,17 @@
   margin-top: 15%;
   position: absolute;
 }
-
+.road_num2 h1:before {
+    content: "";
+    display: block;
+    width: 47px;
+    height: 2px;
+    background: #404052;
+    left: 50.1%;
+    margin-top: 15%;
+    position: absolute;
+  }
+  
 .first-b {
   display: flex;
   align-items: center;
@@ -44,7 +68,11 @@
 }
 
 .road_details {
-  background: #020233;
+    position: relative;
+    right: -19%;
+    top:21px;
+    width: 122%;
+  background: #0202334a;
   backdrop-filter: blur(180px);
   border: 1px solid;
   border-image-slice: 1;
@@ -54,6 +82,23 @@
     rgba(133, 123, 175, 0) 168.51%
   );
   color: #fff;
+  padding: 12px 18px 12px 18px;
+}
+
+.road_details2 {
+    text-align: right;
+    position: relative;
+    left: -33%;
+    top:21px;
+    width: 122%;
+    background: #0202334a;
+    -webkit-backdrop-filter: blur(180px);
+    backdrop-filter: blur(180px);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( 286.28deg, #857baf -2.9%, rgba(133, 123, 175, 0) 168.51% );
+    color: #fff;
+    padding: 12px 18px 12px 18px;
 }
 
 .road_details ul li {
@@ -65,6 +110,15 @@
   list-style: circle !important;
 }
 
+
+.road_details2 ul li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style: circle !important;
+  }
 .road_num::before {
   content: "";
   display: block;
@@ -74,4 +128,17 @@
   right: 50%;
   margin-top: 0%;
   position: absolute;
+}
+.road_num2::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 425px;
+    background: #404052;
+    right: 50%;
+    margin-top: 0%;
+    position: absolute;
+  }
+.road_num2{
+    padding-left: 52px;
 }

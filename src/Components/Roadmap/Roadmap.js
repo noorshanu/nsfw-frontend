@@ -34,7 +34,7 @@ function Roadmap() {
 
           <div className="first-b">
             <div className="road-d-box">
-              <div className="road_details">
+              <div className="road_details2">
                 <ul>
                   <li>Creation of concept</li>
                   <li>Creation of Website & Tokenomics</li>
@@ -47,7 +47,7 @@ function Roadmap() {
               </div>
             </div>
 
-            <div className="road_num">
+            <div className="road_num2">
               <h1>02</h1>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Roadmap() {
 
           <div className="first-b">
             <div className="road-d-box">
-              <div className="road_details">
+              <div className="road_details2">
                 <ul>
                   <li>Creation of concept</li>
                   <li>Creation of Website & Tokenomics</li>
@@ -91,7 +91,7 @@ function Roadmap() {
               </div>
             </div>
 
-            <div className="road_num">
+            <div className="road_num2">
               <h1>04</h1>
             </div>
           </div>
