@@ -19,7 +19,7 @@ function Ecosystem() {
   return (
     <>
     <section className='eco_system'>
-        <div className='container'>
+       
             <div className='header-text text-center'>
                 <h2>Our Ecosystem</h2>
                 <hr className='low-hr'/>
@@ -48,7 +48,7 @@ function Ecosystem() {
       </Swiper>
             </div>
 
-        </div>
+    
 
     </section>
     <EcoList/>
