@@ -187,3 +187,19 @@
   width: 26%;
   z-index: 2;
 }
+
+.road-ele3{
+  position: absolute;
+  right: 0;
+  top: -39%;
+  width: 53%;
+  z-index: 2;
+}
+
+.road-ele4{
+  position: absolute;
+  right: 0;
+  top: 63%;
+  width: 26%;
+  z-index: 2;
+}

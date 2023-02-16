@@ -6,6 +6,8 @@ import Roadr from '../../Assets/elements/roadr.png'
 import Roadl from '../../Assets/elements/roadl.png'
 import RoadEle from '../../Assets/elements/road-ele.png'
 import RoadEle2 from '../../Assets/elements/road-ele2.png'
+import RoadEle3 from '../../Assets/elements/road-ele3.png'
+import RoadEle4 from '../../Assets/elements/road-ele4.png'
 function Roadmap() {
   return (
     <>
@@ -16,7 +18,7 @@ function Roadmap() {
             <h2>Roadmap</h2>
             <hr className="low-hr" />
           </div>
-
+          <img src={RoadEle3} alt="" className="road-ele3"/>
           <div className="first-b">
             <div className="road_num">
               <h1>01</h1>
@@ -110,6 +112,7 @@ function Roadmap() {
           </div>
 
         </div>
+        <img src={RoadEle4} alt="" className="road-ele4"/>
       </section>
     </>
   );
