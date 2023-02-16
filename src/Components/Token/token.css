@@ -1,4 +1,23 @@
 .token-box{
     background: linear-gradient(180deg, rgba(179, 27, 193, 0.13) 0%, rgba(106, 9, 134, 0.13) 100%);
 backdrop-filter: blur(19.5px);
+border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( 180deg, rgba(233, 155, 255, 0.17) 0%, #ffffff 52.08%, rgba(227, 132, 255, 0.17) 100% );
+    padding: 4%;
+
+
+}
+
+.toko_system{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.token img{
+    width: auto;
+    height: 380px;
+}
+.token{
+    margin-top: 4%;
+    margin-bottom: 4%;
 }

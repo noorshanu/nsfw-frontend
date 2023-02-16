@@ -47,6 +47,10 @@ color: #FFFFFF;
 
 .light-icon{
     position: absolute;
-    margin-top: -17%;
+    margin-top: -17.3%;
     left: 37%;
+}
+.foot-social ul{
+    display: flex;
+    gap: 30px;
 }

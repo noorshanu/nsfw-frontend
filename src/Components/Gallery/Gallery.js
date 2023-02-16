@@ -1,9 +1,13 @@
 import React from "react";
 import './Gal.css'
+import GalSwipe1 from "./GalSwipe1";
+import GalSwipe2 from "./GalSwipe2";
+import BgBack from '../../Assets/elements/black.png'
 
 function Gallery() {
   return (
     <section className="gallery">
+      {/* <img src={BgBack} alt="" className="black-ele"/> */}
       <div className="container align-items-center text-center">
         <div className="header-text text-center">
           <h2>Gallery</h2>
@@ -25,6 +29,9 @@ function Gallery() {
 
         </div>
       </div>
+      <GalSwipe1/>
+
+      <GalSwipe2/>
     </section>
   );
 }

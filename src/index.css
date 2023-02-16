@@ -17,6 +17,8 @@ a{
   color: #fff ;
 
 }
-
+li{
+  list-style: none !important;
+}
 
 

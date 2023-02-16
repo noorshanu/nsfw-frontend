@@ -5,7 +5,7 @@ import './token.css'
 function Tokenomic() {
   return (
     <>
-      <section className="eco_system">
+      <section className="toko_system">
         <div className="container">
           <div className="header-text text-center">
             <h2>Tokenomics</h2>

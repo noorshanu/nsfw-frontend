@@ -5,6 +5,7 @@ import Gallery from '../Components/Gallery/Gallery'
 import Hero from '../Components/Hero/Hero'
 import AddressBar from '../Components/Navbar/AddressBar'
 import NavbarPc from '../Components/Navbar/NavbarPc'
+import Roadmap from '../Components/Roadmap/Roadmap'
 import Tokenomic from '../Components/Token/Tokenomic'
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
     <Hero/>
     <Ecosystem/>
     <Tokenomic/>
+    <Roadmap/>
     <Gallery/>
     <Footer/>
     </>

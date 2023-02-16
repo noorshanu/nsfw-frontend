@@ -4,6 +4,11 @@ import './footer.css'
 import Footleft from '../../Assets/elements/footcorner.svg'
 import FtBt from '../../Assets/elements/ftbottom.svg'
 import LightImg from '../../Assets/elements/light-line.svg'
+import Tweet from '../../Assets/social/twee.png'
+import Tele from '../../Assets/social/tele.png'
+import Uni from '../../Assets/social/uni.png'
+import BSC from '../../Assets/social/bsc.png'
+
 function Footer() {
   return (
     <>
@@ -18,7 +23,10 @@ function Footer() {
 
                     <div className='foot-social'>
                         <ul>
-                            <li></li>
+                            <li><img src={Tweet} alt=""/></li>
+                            <li><img src={Tele} alt=""/></li>
+                            <li><img src={Uni} alt=""/></li>
+                            <li><img src={BSC} alt=""/></li>
                         </ul>
 
                     </div>

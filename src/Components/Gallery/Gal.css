@@ -33,4 +33,17 @@ color: #FFFFFF;
 
     z-index: 2;
     position: relative;
+    padding-top: 20px;
+padding-bottom: 40px;
+}
+
+.gal-box{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.black-ele{
+    position: absolute;
+    z-index: -13;
+    margin-top: -46%;
 }
