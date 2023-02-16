@@ -97,3 +97,10 @@
   height: 226px;
   width: 386px;
 }
+.side-2{
+  position: absolute;
+  right: 0;
+  z-index: -2;
+  height: 226px;
+  width: 386px;
+}

@@ -14,6 +14,7 @@ import Nft2 from "../../Assets/Eco/gal/img2.svg";
 import Nft4 from "../../Assets/Eco/gal/img4.svg";
 import Nft5 from "../../Assets/Eco/gal/img5.svg";
 import SideCon from '../../Assets/elements/hero-element.png'
+import SideCon2 from '../../Assets/elements/right-hero.png'
 import Nft7 from "../../Assets/Eco/gal/img7.svg";
 import Nft8 from "../../Assets/Eco/gal/img8.svg";
 
@@ -21,6 +22,7 @@ function Ecosystem() {
   return (
     <>
     <img src={SideCon} alt="" className="side-1"/>
+    <img src={SideCon2} alt="" className="side-2"/>
       <section className="eco_system">
         <div className="header-text text-center">
           <h2>Our Ecosystem</h2>
