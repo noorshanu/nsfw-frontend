@@ -5,6 +5,7 @@ import LightImg from '../../Assets/elements/light-line.svg'
 import Roadr from '../../Assets/elements/roadr.png'
 import Roadl from '../../Assets/elements/roadl.png'
 import RoadEle from '../../Assets/elements/road-ele.png'
+import RoadEle2 from '../../Assets/elements/road-ele2.png'
 function Roadmap() {
   return (
     <>
@@ -84,6 +85,7 @@ function Roadmap() {
           </div>
 
 <img src={RoadEle} alt="" className="road-ele"/>
+<img src={RoadEle2} alt="" className="road-ele2"/>
 
           <div className="first-b">
             <div className="road-d-box">

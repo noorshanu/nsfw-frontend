@@ -118,6 +118,7 @@
     letter-spacing: 0em;
     text-align: left;
     list-style: circle !important;
+    z-index: 2;
   }
 .road_num::before {
   content: "";
@@ -178,4 +179,11 @@
   left: 0;
     top: 29%;
     z-index: 2;
+}
+.road-ele2{
+  position: absolute;
+  left: 0;
+  top: 63%;
+  width: 26%;
+  z-index: 2;
 }
