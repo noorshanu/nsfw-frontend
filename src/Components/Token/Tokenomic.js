@@ -1,7 +1,7 @@
 import React from "react";
 import TokenImg from "../../Assets/token.png";
 import './token.css'
-
+import LightImg from '../../Assets/elements/light-line.svg'
 function Tokenomic() {
   return (
     <>
@@ -17,7 +17,9 @@ function Tokenomic() {
         </div>
         <div className="container">
         <div className="token-box-grid ">
+        
           <div className="token-box">
+          <img src={LightImg} alt="" className='light-icon'/>
             <div>
               <h1>5% Buy Text</h1>
 
@@ -27,6 +29,7 @@ function Tokenomic() {
           </div>
 
           <div className="token-box">
+          <img src={LightImg} alt="" className='light-icon'/>
             <div>
               <h1>5% Sell Tax</h1>
 
