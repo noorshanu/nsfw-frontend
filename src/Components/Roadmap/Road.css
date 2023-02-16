@@ -1,7 +1,8 @@
 .road-dapp{
     position: absolute;
     z-index: -2;
-
+    margin-top: -30%;
+    width: 100%;
 }
 .Roadmap{
     padding-top: 20px;
