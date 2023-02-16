@@ -77,7 +77,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 8px;
-  width: 218px;
+  width: 186px;
   margin-bottom: 22px;
   height: 203px;
 }
@@ -85,4 +85,24 @@
   position: absolute;
   right: 5%;
   top: 14%;
+}
+.eth-box{
+  background: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(7px);
+/* Note: backdrop-filter has minimal browser support */
+display: flex;
+float: right;
+margin: 5%;
+padding: 4%;
+align-items: center;
+border-radius: 3px;
+}
+
+.eth-box h1{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #FFFFFF;
 }
