@@ -14,6 +14,7 @@ import Nft5 from "../../Assets/Eco/gal/img5.svg";
 
 import Nft7 from "../../Assets/Eco/gal/img7.svg";
 import Nft8 from "../../Assets/Eco/gal/img8.svg";
+import Cap6 from '../../Assets/cap6.png'
 
 function GalSwipe1() {
   return (
@@ -29,22 +30,22 @@ function GalSwipe1() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={Nft1} alt="" />
+              <img src={Nft5} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft8} alt="" />
+              <img src={Nft1} alt="" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Nft2} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft4} alt="" />
+              <img src={Nft8} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft7} alt="" />
+              <img src={Cap6} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft5} alt="" />
+              <img src={Nft8} alt="" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Nft7} alt="" />

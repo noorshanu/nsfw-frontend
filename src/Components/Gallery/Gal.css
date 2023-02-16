@@ -3,10 +3,17 @@
     gap: 1rem;
     justify-content: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 70px;
     margin-bottom: 20px;
 }
-
+.gal-btn-wrap2 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 .gal-btn{
     border: 1px solid #FFFFFF;
 border-radius: 5px;

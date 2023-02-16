@@ -9,9 +9,9 @@ import { Pagination } from "swiper";
 
 import Nft1 from "../../Assets/Eco/gal/img1.png";
 import Nft2 from "../../Assets/Eco/gal/img2.svg";
-import Nft4 from "../../Assets/Eco/gal/img4.svg";
+// import Nft4 from "../../Assets/Eco/gal/img4.svg";
 import Nft5 from "../../Assets/Eco/gal/img5.svg";
-
+import Cap4 from '../../Assets/cap4.png'
 import Nft7 from "../../Assets/Eco/gal/img7.svg";
 import Nft8 from "../../Assets/Eco/gal/img8.svg";
 
@@ -38,7 +38,7 @@ function GalSwipe2() {
               <img src={Nft2} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft4} alt="" />
+              <img src={Cap4} alt="" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Nft7} alt="" />

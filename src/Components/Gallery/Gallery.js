@@ -21,7 +21,7 @@ function Gallery() {
 
 
         </div>
-        <div className="gal-btn-wrap">
+        <div className="gal-btn-wrap2">
             <a href="/" className="gal-btn">CELEBRITY NSFW</a>
             <a href="/" className="gal-btn">MALE NSFW</a>
             <a href="/" className="gal-btn">FUNNY NSFW</a>
