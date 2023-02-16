@@ -1,5 +1,6 @@
 import React from 'react'
 import Ecosystem from '../Components/Ecosystem/Ecosystem'
+import Footer from '../Components/Footer/Footer'
 import Gallery from '../Components/Gallery/Gallery'
 import Hero from '../Components/Hero/Hero'
 import AddressBar from '../Components/Navbar/AddressBar'
@@ -15,6 +16,7 @@ function Home() {
     <Ecosystem/>
     <Tokenomic/>
     <Gallery/>
+    <Footer/>
     </>
   )
 }
