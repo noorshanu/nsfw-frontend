@@ -7,7 +7,7 @@ import BgBack from '../../Assets/elements/black.png'
 function Gallery() {
   return (
     <section className="gallery">
-      {/* <img src={BgBack} alt="" className="black-ele"/> */}
+      <img src={BgBack} alt="" className="black-ele"/>
       <div className="container align-items-center text-center">
         <div className="header-text text-center">
           <h2>Gallery</h2>
