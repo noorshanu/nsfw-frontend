@@ -1,5 +1,5 @@
 import React from "react";
-import One from "../../Assets/Eco/one.svg";
+import One from "../../Assets/Eco/one.png";
 import Play from "../../Assets/Eco/play.png";
 import Nft from "../../Assets/Eco/nft.png";
 import Nft2 from "../../Assets/Eco/nft2.png";

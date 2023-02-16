@@ -50,11 +50,11 @@
   padding-bottom: 20px;
 }
 
-.eco-icon-box {
+/* .eco-icon-box {
     background: rgba(23, 6, 66, 0.48);
     border-radius: 50%;
     padding: 32%;
-}
+} */
 .token-box-grid{
     display: flex;
     justify-content: space-between;
