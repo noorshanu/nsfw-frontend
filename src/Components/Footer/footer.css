@@ -44,3 +44,9 @@ color: #FFFFFF;
     height: 366px;
     width: auto;
 }
+
+.light-icon{
+    position: absolute;
+    margin-top: -17%;
+    left: 37%;
+}

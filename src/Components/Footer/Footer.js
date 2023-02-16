@@ -3,6 +3,7 @@ import FootLogo from '../../Assets/logo-main.svg'
 import './footer.css'
 import Footleft from '../../Assets/elements/footcorner.svg'
 import FtBt from '../../Assets/elements/ftbottom.svg'
+import LightImg from '../../Assets/elements/light-line.svg'
 function Footer() {
   return (
     <>
@@ -34,6 +35,7 @@ function Footer() {
 
         </div>
     </footer>
+    <img src={LightImg} alt="" className='light-icon'/>
     <img src={Footleft} alt="" className='left-con'/>
     <img src={FtBt} alt="" className='left-center'/>
   </>
