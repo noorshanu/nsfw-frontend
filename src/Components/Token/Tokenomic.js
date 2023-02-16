@@ -28,7 +28,7 @@ function Tokenomic() {
 
           <div className="token-box">
             <div>
-              <h1>5% Buy Text</h1>
+              <h1>5% Sell Tax</h1>
 
               <p>4% - Marketing and Development of Ecosystem</p>
               <p>1% - Automatically Added to Dex LP</p>
