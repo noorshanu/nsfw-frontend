@@ -1,0 +1,4 @@
+.token-box{
+    background: linear-gradient(180deg, rgba(179, 27, 193, 0.13) 0%, rgba(106, 9, 134, 0.13) 100%);
+backdrop-filter: blur(19.5px);
+}

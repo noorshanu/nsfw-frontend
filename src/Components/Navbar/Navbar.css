@@ -1,0 +1,46 @@
+.address-bar {
+  background: linear-gradient(160.01deg, #c429f1 2.67%, #ff8a4f 118.95%);
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+.address-bar h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nav-box {
+  background: #181825;
+  width: 71px;
+}
+.float-nav {
+  position: absolute;
+  margin-top: 8.4%;
+  left: 49px;
+}
+.nav-logo {
+  position: absolute;
+  z-index: 999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 49px;
+}
+
+.nav-box ul li {
+  list-style: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+.nav-box ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0px;
+}
+.nav-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

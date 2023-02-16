@@ -1,0 +1,61 @@
+.header-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.eco_system {
+  padding-top: 76px;
+  padding-bottom: 20px;
+}
+.low-hr {
+  width: 51px;
+  height: 1px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: auto;
+}
+
+.eco-box {
+  background: linear-gradient(
+    180deg,
+    rgba(179, 27, 193, 0.13) 0%,
+    rgba(106, 9, 134, 0.13) 100%
+  );
+  backdrop-filter: blur(40.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(233, 155, 255, 0.17) 0%,
+    #e99dff 52.08%,
+    rgba(227, 132, 255, 0.17) 100%
+  );
+  padding: 12px 30px 12px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.eco-list-grid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 1rem;
+}
+
+.eco-list {
+  padding-bottom: 20px;
+}
+
+.eco-icon-box {
+    background: rgba(23, 6, 66, 0.48);
+    border-radius: 50%;
+    padding: 32%;
+}
+.token-box-grid{
+    display: flex;
+    justify-content: space-between;
+}

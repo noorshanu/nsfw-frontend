@@ -7,8 +7,14 @@ scroll-behavior: smooth;
 
 
 body {
-  font-family: 'Inconsolata', monospace !important;
-  background-color: #020119 !important;
+  font-family: 'Inconsolata' !important;
+  background-color: rgba(2, 1, 25, 1) !important;
 }
+a{
+  text-decoration: none !important;
+  color: #fff ;
+
+}
+
 
 
