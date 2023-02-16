@@ -71,3 +71,18 @@
 .nsf-first{
     padding-left: calc(var(--bs-gutter-x) * 3.5) !important;
 } 
+
+.hero-demo-box{
+  background-image: url('../../Assets/cap1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 218px;
+  margin-bottom: 22px;
+  height: 203px;
+}
+.top-box-hero{
+  position: absolute;
+  right: 5%;
+  top: 14%;
+}
