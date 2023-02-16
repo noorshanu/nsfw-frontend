@@ -1,6 +1,7 @@
 import React from "react";
 import BackBG from "../../Assets/bg.png";
 import "./Road.css";
+import LightImg from '../../Assets/elements/light-line.svg'
 
 function Roadmap() {
   return (
@@ -29,6 +30,7 @@ function Roadmap() {
                   <li>Community Contests & Hype Creation</li>
                 </ul>
               </div>
+              <img src={LightImg} alt="" className='light-icon3'/>
             </div>
           </div>
 
@@ -45,6 +47,7 @@ function Roadmap() {
                   <li>Community Contests & Hype Creation</li>
                 </ul>
               </div>
+              <img src={LightImg} alt="" className='light-icon4'/>
             </div>
 
             <div className="road_num2">
@@ -71,6 +74,7 @@ function Roadmap() {
                   <li>Community Contests & Hype Creation</li>
                 </ul>
               </div>
+              <img src={LightImg} alt="" className='light-icon3'/>
             </div>
           </div>
 
@@ -89,6 +93,7 @@ function Roadmap() {
                   <li>Community Contests & Hype Creation</li>
                 </ul>
               </div>
+              <img src={LightImg} alt="" className='light-icon4'/>
             </div>
 
             <div className="road_num2">
