@@ -2,7 +2,9 @@ import React from "react";
 import BackBG from "../../Assets/bg.png";
 import "./Road.css";
 import LightImg from '../../Assets/elements/light-line.svg'
-
+import Roadr from '../../Assets/elements/roadr.png'
+import Roadl from '../../Assets/elements/roadl.png'
+import RoadEle from '../../Assets/elements/road-ele.png'
 function Roadmap() {
   return (
     <>
@@ -46,6 +48,7 @@ function Roadmap() {
                   <li>Ecosystem Showcase</li>
                   <li>Community Contests & Hype Creation</li>
                 </ul>
+                <img src={Roadr} alt="" className="roadr"/>
               </div>
               <img src={LightImg} alt="" className='light-icon4'/>
             </div>
@@ -73,12 +76,14 @@ function Roadmap() {
                   <li>Ecosystem Showcase</li>
                   <li>Community Contests & Hype Creation</li>
                 </ul>
+                
+                <img src={Roadl} alt="" className="roadl"/>
               </div>
               <img src={LightImg} alt="" className='light-icon3'/>
             </div>
           </div>
 
-
+<img src={RoadEle} alt="" className="road-ele"/>
 
           <div className="first-b">
             <div className="road-d-box">
@@ -92,6 +97,7 @@ function Roadmap() {
                   <li>Ecosystem Showcase</li>
                   <li>Community Contests & Hype Creation</li>
                 </ul>
+
               </div>
               <img src={LightImg} alt="" className='light-icon4'/>
             </div>

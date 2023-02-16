@@ -16,6 +16,7 @@ import Nft7 from "../../Assets/Eco/gal/img7.svg";
 import Nft8 from "../../Assets/Eco/gal/img8.svg";
 import Cap6 from '../../Assets/cap6.png'
 
+
 function GalSwipe1() {
   return (
     <>
