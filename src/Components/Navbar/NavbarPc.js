@@ -2,7 +2,7 @@ import React from "react";
 import { RiHomeSmile2Line } from "react-icons/ri";
 import { CiGlobe } from "react-icons/ci";
 import { TbRoad } from "react-icons/tb";
-import {MdOutlinePhotoFilter} from 'react-icons/md'
+import {MdOutlinePhotoFilter,MdAddChart} from 'react-icons/md'
 import './Navbar.css'
 import Logo from '../../Assets/logo-main.svg'
 function NavbarPc() {
@@ -21,7 +21,7 @@ function NavbarPc() {
             <CiGlobe />
           </li>
           <li>
-            <MdOutlinePhotoFilter/>
+            <MdAddChart/>
           </li>
           <li>
             <TbRoad />
