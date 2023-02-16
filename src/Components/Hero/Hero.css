@@ -81,6 +81,24 @@
   margin-bottom: 22px;
   height: 203px;
 }
+.hero-demo-box2{
+  background-image: url('../../Assets/cap2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 186px;
+  margin-bottom: 22px;
+  height: 203px;
+}
+.hero-demo-box3{
+  background-image: url('../../Assets/cap3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 186px;
+  margin-bottom: 22px;
+  height: 203px;
+}
 .top-box-hero{
   position: absolute;
   right: 5%;

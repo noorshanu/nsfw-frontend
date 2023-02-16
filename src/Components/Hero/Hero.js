@@ -1,5 +1,7 @@
 import React from 'react'
 import './Hero.css'
+
+import {MdQrCode} from 'react-icons/md'
 function Hero() {
   return (
     <section className='nsf-bg'>
@@ -29,7 +31,7 @@ function Hero() {
 
                             <div className='qr-box'>
                                 <h2>
-                                    <span></span>
+                                    <span><MdQrCode/> </span> 
                                     KAIJIN
                                 </h2>
                                 <p>1023</p>
@@ -37,7 +39,7 @@ function Hero() {
 
                         </div>
 
-                        <div className='hero-demo-box'>
+                        <div className='hero-demo-box2'>
                             <div className='eth-box'>
                                 <h1>2.01 ETH</h1>
 
@@ -45,8 +47,8 @@ function Hero() {
 
                             <div className='qr-box'>
                                 <h2>
-                                    <span></span>
-                                    KAIJIN
+                                <span><MdQrCode/> </span> 
+                                BUSHIDO
                                 </h2>
                                 <p>1023</p>
                             </div>
@@ -55,7 +57,7 @@ function Hero() {
 
 
 
-                        <div className='hero-demo-box'>
+                        <div className='hero-demo-box3'>
                             <div className='eth-box'>
                                 <h1>2.01 ETH</h1>
 
@@ -63,8 +65,8 @@ function Hero() {
 
                             <div className='qr-box'>
                                 <h2>
-                                    <span></span>
-                                    KAIJIN
+                                <span><MdQrCode/> </span> 
+                                BUSHIDO
                                 </h2>
                                 <p>1023</p>
                             </div>
