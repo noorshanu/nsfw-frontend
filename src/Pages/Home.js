@@ -1,5 +1,6 @@
 import React from 'react'
 import Ecosystem from '../Components/Ecosystem/Ecosystem'
+import Gallery from '../Components/Gallery/Gallery'
 import Hero from '../Components/Hero/Hero'
 import AddressBar from '../Components/Navbar/AddressBar'
 import NavbarPc from '../Components/Navbar/NavbarPc'
@@ -13,6 +14,7 @@ function Home() {
     <Hero/>
     <Ecosystem/>
     <Tokenomic/>
+    <Gallery/>
     </>
   )
 }
