@@ -9,6 +9,8 @@ scroll-behavior: smooth;
 body {
   font-family: 'Inconsolata' !important;
   background-color: rgba(2, 1, 25, 1) !important;
+  cursor: url('./Assets/point.png'),auto;
+
 }
 a{
   text-decoration: none !important;

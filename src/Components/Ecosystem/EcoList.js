@@ -17,39 +17,34 @@ function EcoList() {
             <p>NSFW Image Generator</p>
           </div>
 
-
           <div className="eco-box">
             <div className="eco-icon-box">
               <img src={Play} alt="" />
             </div>
-            <p>NSFW Image Generator</p>
+            <p>NSFW Video Generator</p>
           </div>
-
 
           <div className="eco-box">
             <div className="eco-icon-box">
               <img src={Nft} alt="" />
             </div>
-            <p>NSFW Image Generator</p>
+            <p>One Click NFT Minter</p>
           </div>
-
 
           <div className="eco-box">
             <div className="eco-icon-box">
               <img src={Nft2} alt="" />
             </div>
-            <p>NSFW Image Generator</p>
+            <p>NFT Marketplace</p>
           </div>
-
 
           <div className="eco-box">
             <div className="eco-icon-box">
               <img src={last} alt="" />
             </div>
-            <p>NSFW Image Generator</p>
+            <p>Governance Dao</p>
           </div>
         </div>
-        
       </div>
     </section>
   );

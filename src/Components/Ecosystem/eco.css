@@ -35,9 +35,20 @@
     #e99dff 52.08%,
     rgba(227, 132, 255, 0.17) 100%
   );
-  padding: 12px 30px 12px;
+  padding: 60px 30px 27px;
   text-align: center;
   border-radius: 4px;
+}
+.eco-box p{
+ 
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+padding-top: 23px;
+
 }
 
 .eco-list-grid {

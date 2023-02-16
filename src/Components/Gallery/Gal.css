@@ -31,5 +31,6 @@ color: #FFFFFF;
     background-image: url('../../Assets/elements/grid.png');
     background-size: cover;
 
-
+    z-index: 2;
+    position: relative;
 }
