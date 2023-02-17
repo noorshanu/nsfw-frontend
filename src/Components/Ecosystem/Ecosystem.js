@@ -67,6 +67,45 @@ function Ecosystem() {
             </SwiperSlide>
           </Swiper>
         </div>
+        <div className="eco-grid2">
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={0}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img src={Nft1} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft8} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft2} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft4} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft7} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft5} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft7} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft5} alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Nft2} alt="" />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </section>
       <EcoList />
     </>

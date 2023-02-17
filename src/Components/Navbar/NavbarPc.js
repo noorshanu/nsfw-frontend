@@ -7,7 +7,7 @@ import './Navbar.css'
 import Logo from '../../Assets/logo-main.svg'
 function NavbarPc() {
   return (
-    <>
+    <div className="pc-menu">
 <div className="nav-logo">
     <img src={Logo} alt=""/>
 </div>
@@ -32,7 +32,7 @@ function NavbarPc() {
         </ul>
       </div>
     </div>
-    </>
+    </div>
 
   );
 }

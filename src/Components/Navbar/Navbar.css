@@ -44,3 +44,47 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.pc-menu{
+  display: block;
+}
+.mob-menu{
+  display: none;
+}
+.mob-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 15px;
+  position: absolute;
+  gap: 14rem;
+}
+.mnav-logo img{
+  width: auto;
+  height: 32px;
+
+}
+@media (max-width:768px) {
+  .pc-menu{
+    display: none;
+  }
+  .mob-menu{
+    display: block;
+  }
+  .float-nav{
+    margin-top: 13.4%;
+    left: 0px;
+  }
+
+  .address-bar h2 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.eco-list-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+}
+}

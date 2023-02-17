@@ -96,3 +96,36 @@ color: #ffffff;
     margin-top: -4.5%;
     left: 72%;
 }
+.pc-tok{
+    display: block;
+}
+.mob-tok{
+    display: none;
+}
+@media (max-width:768px) {
+    .token_details{
+        display: none;
+    }
+    .pc-tok{
+        display: none;
+    }
+    .mob-tok{
+        display: block;
+    }
+    .token img {
+        width: auto;
+        height: auto;
+        margin: 3%;
+    }
+
+    .token-box {
+
+        margin: 5%;
+    }
+
+    .light-icon2 {
+        left: -7%;
+        margin-top: -21.3%;
+        position: absolute;
+    }
+}

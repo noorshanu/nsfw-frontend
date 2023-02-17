@@ -151,3 +151,10 @@ margin-bottom: 1px;
   margin-bottom: 0px;
   color: #fff;
 }
+
+@media (max-width:768px) {
+  .top-box-hero{
+    display: none;
+  }
+  
+}
