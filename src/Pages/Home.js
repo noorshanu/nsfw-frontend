@@ -25,7 +25,7 @@ function Home() {
       loading ?
       <Loader/>
       :
-      <div data-aos="zoom-in" >
+      <div data-aos="zoom-out" data-aos-duration="1000" >
       <AddressBar/>
       <NavbarPc/>
       <MobNavbar/>
