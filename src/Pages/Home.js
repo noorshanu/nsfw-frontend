@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Ecosystem from '../Components/Ecosystem/Ecosystem'
 import Footer from '../Components/Footer/Footer'
 import Gallery from '../Components/Gallery/Gallery'
@@ -8,20 +8,37 @@ import MobNavbar from '../Components/Navbar/MobNavbar'
 import NavbarPc from '../Components/Navbar/NavbarPc'
 import Roadmap from '../Components/Roadmap/Roadmap'
 import Tokenomic from '../Components/Token/Tokenomic'
+import Loader from '../Loader/Loader'
 
 function Home() {
+  const [loading,setLoading] =useState(false)
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },8000)
+  },[])
   return (
-    <>
-    <AddressBar/>
-    <NavbarPc/>
-    <MobNavbar/>
-    <Hero/>
-    <Ecosystem/>
-    <Tokenomic/>
-    <Roadmap/>
-    <Gallery/>
-    <Footer/>
-    </>
+   
+    <div>
+     {
+      loading ?
+      <Loader/>
+      :
+      <>
+      <AddressBar/>
+      <NavbarPc/>
+      <MobNavbar/>
+      <Hero/>
+      <Ecosystem/>
+      <Tokenomic/>
+      <Roadmap/>
+      <Gallery/>
+      <Footer/>
+      </>
+    }
+
+    </div>
   )
 }
 
