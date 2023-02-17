@@ -8,14 +8,14 @@ function Hero() {
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-md-6 nsf-first">
-            <div className="head-top">
+            <div className="head-top" data-aos="zoom-out" data-aos-duration="3000" >
               <h1>Build</h1>
               <h1>Your</h1>
               <h1>NSFW</h1>
               <h1>Fantasies</h1>
             </div>
 
-            <div className="btn-wrap">
+            <div className="btn-wrap" data-aos="zoom-out" data-aos-duration="3000" >
               <a href="/" className="button-background-move">
                 Explore
               </a>
@@ -27,7 +27,7 @@ function Hero() {
           <div className="col-md-6">
             <div className="top-box-hero">
               <div className="hero-demo-box">
-                <div className="eth-box">
+                <div className="eth-box" data-aos="zoom-out">
                   <h1>2.01 ETH</h1>
                 </div>
 
@@ -42,7 +42,7 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="hero-demo-box2">
+              <div className="hero-demo-box2" data-aos="zoom-out" data-aos-duration="3000" >
                 <div className="eth-box">
                   <h1>2.01 ETH</h1>
                 </div>
@@ -58,7 +58,7 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="hero-demo-box3">
+              <div className="hero-demo-box3" data-aos="zoom-out" data-aos-duration="3000" >
                 <div className="eth-box">
                   <h1>2.01 ETH</h1>
                 </div>
