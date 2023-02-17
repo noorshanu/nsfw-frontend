@@ -39,16 +39,14 @@
   text-align: center;
   border-radius: 4px;
 }
-.eco-box p{
- 
-font-size: 18px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: center;
-color: #fff;
-padding-top: 23px;
-
+.eco-box p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  padding-top: 23px;
 }
 
 .eco-list-grid {
@@ -66,14 +64,11 @@ padding-top: 23px;
     border-radius: 50%;
     padding: 32%;
 } */
-.token-box-grid{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10%;
+.token-box-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
 }
-
-
-
 
 .swiper {
   width: 100%;
@@ -83,7 +78,7 @@ padding-top: 23px;
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #020119;
 
   /* Center slide text vertically */
   display: flex;
@@ -97,19 +92,19 @@ padding-top: 23px;
   height: 287px;
   object-fit: cover;
 }
-.eco-grid{
+.eco-grid {
   padding-top: 2%;
   padding-bottom: 8%;
 }
 
-.side-1{
+.side-1 {
   position: absolute;
   left: 0;
   z-index: -2;
   height: 226px;
   width: 386px;
 }
-.side-2{
+.side-2 {
   position: absolute;
   right: 0;
   z-index: -2;
@@ -117,18 +112,16 @@ padding-top: 23px;
   width: 386px;
 }
 
-.eco-grid2{
+.eco-grid2 {
   display: none;
-  
 }
 
-@media (max-width:768px) {
-  .eco-grid{
+@media (max-width: 768px) {
+  .eco-grid {
     display: none;
-
   }
 
-  .eco-grid2{
+  .eco-grid2 {
     display: block;
     padding-top: 2%;
     padding-bottom: 8%;
@@ -141,23 +134,22 @@ padding-top: 23px;
     margin: 0%;
     object-fit: cover;
     background: #020119;
-}
+  }
 
-.header-text h2 {
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 14px;
-}
+  .header-text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 14px;
+  }
 
-.token-box-grid {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10%;
-  flex-direction: column;
-}
-  
+  .token-box-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    flex-direction: column;
+  }
 }

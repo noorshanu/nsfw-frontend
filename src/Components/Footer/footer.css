@@ -54,3 +54,26 @@ color: #FFFFFF;
     display: flex;
     gap: 30px;
 }
+@media (max-width:768px) {
+    .left-center{
+        display: none;
+    }
+    .light-icon{
+      display: none;
+    }
+    .left-con{
+     display: none;
+    }
+    .foot-grid{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-social ul {
+  
+        text-align: center;
+      
+        margin-left: 54px;
+        margin-top: 20px;}
+}

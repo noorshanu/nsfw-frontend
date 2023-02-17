@@ -1,5 +1,6 @@
 import React from "react";
 import BackBG from "../../Assets/bg.png";
+import BackBGm from "../../Assets/bg-m.png";
 import "./Road.css";
 import LightImg from '../../Assets/elements/light-line.svg'
 import Roadr from '../../Assets/elements/roadr.png'
@@ -8,10 +9,12 @@ import RoadEle from '../../Assets/elements/road-ele.png'
 import RoadEle2 from '../../Assets/elements/road-ele2.png'
 import RoadEle3 from '../../Assets/elements/road-ele3.png'
 import RoadEle4 from '../../Assets/elements/road-ele4.png'
+import RoadMapMob from "./RoadMapMob";
 function Roadmap() {
   return (
     <>
       <img src={BackBG} alt="" className="road-dapp" />
+      {/* <img src={BackBGm} alt="" className="road-dapp2" /> */}
       <section className="Roadmap">
         <div className="container">
           <div className="header-text text-center">
@@ -19,6 +22,7 @@ function Roadmap() {
             <hr className="low-hr" />
           </div>
           <img src={RoadEle3} alt="" className="road-ele3"/>
+          {/* <RoadMapMob/> */}
           <div className="first-b">
             <div className="road_num">
               <h1>01</h1>
