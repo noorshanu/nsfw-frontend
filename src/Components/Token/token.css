@@ -49,3 +49,50 @@ color: #ffffff;
     margin-top: -17.3%;
     position: absolute;
 }
+
+.token_details p
+{
+  color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.cold{
+    position: absolute;
+    left: 17%;
+    margin-top: 2.5%;
+
+}
+
+.stake{
+    position: absolute;
+    margin-top: 15.2%;
+    left: 20%;
+}
+.dex{
+    position: absolute;
+    left: 17%;
+    margin-top: 23.9%;
+}
+
+.team-1{
+    position: absolute;
+    margin-top: -28%;
+    left: 64%;
+}
+
+.stake-1{
+    position: absolute;
+    margin-top: -14.4%;
+    left: 70%;
+}
+
+.exchange{
+    position: absolute;
+    margin-top: -4.5%;
+    left: 72%;
+}

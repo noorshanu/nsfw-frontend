@@ -11,9 +11,27 @@ function Tokenomic() {
             <h2>Tokenomics</h2>
             <hr className="low-hr" />
           </div>
+
+          <div className="">
+          <div className="token_details">
+            <p className="cold">Cold Storage 10%</p>
+            <p className="stake">Staking 20%</p>
+            <p className="dex">Dex Liquidity 20%</p>
+          </div>
           <div className="token text-center">
             <img src={TokenImg} alt="" />
           </div>
+
+          <div className="token_details">
+            <p className="team-1">Team Vesting 5%</p>
+            <p className="stake-1">Staking 20%</p>
+            <p className="exchange">Exchange Listings 15%</p>
+          </div>
+
+
+
+          </div>
+         
         </div>
         <div className="container">
         <div className="token-box-grid ">
