@@ -25,7 +25,7 @@ function Home() {
       loading ?
       <Loader/>
       :
-      <>
+      <div data-aos="zoom-in" >
       <AddressBar/>
       <NavbarPc/>
       <MobNavbar/>
@@ -35,7 +35,7 @@ function Home() {
       <Roadmap/>
       <Gallery/>
       <Footer/>
-      </>
+      </div>
     }
 
     </div>
