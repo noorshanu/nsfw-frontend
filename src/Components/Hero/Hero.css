@@ -156,5 +156,9 @@ margin-bottom: 1px;
   .top-box-hero{
     display: none;
   }
-  
+  .button-background-move {
+    padding: 8px 34px 8px;
+
+    font-size: 13px;
+}
 }
