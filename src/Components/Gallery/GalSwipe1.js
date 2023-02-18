@@ -20,7 +20,10 @@ import Cap6 from '../../Assets/cap6.png'
 function GalSwipe1() {
   return (
     <>
-    <div className='gal-box'>
+    <div className='gal-box' data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1000"
+     data-aos-duration="1000">
     <Swiper
             slidesPerView={5}
             spaceBetween={1}

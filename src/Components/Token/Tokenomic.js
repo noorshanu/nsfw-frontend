@@ -39,7 +39,7 @@ function Tokenomic() {
         <div className="container">
         <div className="token-box-grid ">
         
-          <div className="token-box">
+          <div className="token-box"  data-aos="fade-up"  data-aos-duration="3000">
           <img src={LightImg} alt="" className='light-icon2'/>
             <div>
               <h1>5% Buy Text</h1>
@@ -49,7 +49,7 @@ function Tokenomic() {
             </div>
           </div>
 
-          <div className="token-box">
+          <div className="token-box"  data-aos="fade-up"  data-aos-duration="3000">
           <img src={LightImg} alt="" className='light-icon2'/>
             <div>
               <h1>5% Sell Tax</h1>

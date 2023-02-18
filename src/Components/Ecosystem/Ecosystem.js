@@ -23,7 +23,10 @@ function Ecosystem() {
     <>
     <img src={SideCon} alt="" className="side-1"/>
     <img src={SideCon2} alt="" className="side-2"/>
-      <section className="eco_system">
+      <section className="eco_system" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="800"
+     data-aos-duration="800">
         <div className="header-text text-center">
           <h2>Our Ecosystem</h2>
           <hr className="low-hr" />

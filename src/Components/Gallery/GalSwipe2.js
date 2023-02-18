@@ -18,7 +18,10 @@ import Nft8 from "../../Assets/Eco/gal/img8.svg";
 function GalSwipe2() {
   return (
     <>
-    <div className='gal-box'>
+    <div className='gal-box' data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="1000"
+     data-aos-duration="1000">
     <Swiper
             slidesPerView={5}
             spaceBetween={1}

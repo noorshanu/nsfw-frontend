@@ -10,35 +10,35 @@ function EcoList() {
     <section className="eco-list">
       <div className="container">
         <div className="eco-list-grid">
-          <div className="eco-box">
+          <div className="eco-box"  data-aos="fade-up" data-aos-duration="1000" >
             <div className="eco-icon-box">
               <img src={One} alt="" />
             </div>
             <p>NSFW Image Generator</p>
           </div>
 
-          <div className="eco-box">
+          <div className="eco-box" data-aos="fade-up" data-aos-duration="1000">
             <div className="eco-icon-box">
               <img src={Play} alt="" />
             </div>
             <p>NSFW Video Generator</p>
           </div>
 
-          <div className="eco-box">
+          <div className="eco-box" data-aos="fade-up" data-aos-duration="2000">
             <div className="eco-icon-box">
               <img src={Nft} alt="" />
             </div>
             <p>One Click NFT Minter</p>
           </div>
 
-          <div className="eco-box">
+          <div className="eco-box"data-aos="fade-up" data-aos-duration="2000">
             <div className="eco-icon-box">
               <img src={Nft2} alt="" />
             </div>
             <p>NFT Marketplace</p>
           </div>
 
-          <div className="eco-box">
+          <div className="eco-box"data-aos="fade-up" data-aos-duration="3000">
             <div className="eco-icon-box">
               <img src={last} alt="" />
             </div>

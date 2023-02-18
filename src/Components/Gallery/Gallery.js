@@ -8,7 +8,7 @@ function Gallery() {
   return (
     <section className="gallery">
       <img src={BgBack} alt="" className="black-ele"/>
-      <div className="container align-items-center text-center">
+      <div className="container align-items-center text-center" data-aos="zoom-in-up"  data-aos-duration="2000">
         <div className="header-text text-center">
           <h2>Gallery</h2>
           <hr className="low-hr" />
