@@ -46,6 +46,7 @@
 .gal-box {
   padding-top: 20px;
   padding-bottom: 30px;
+  display: block;
 }
 
 .black-ele {
@@ -55,6 +56,9 @@
 }
 
 @media (max-width:768px) {
+  .gal-box{
+    display: none;
+  }
     .gal-btn-wrap{
         display: grid;
         grid-template-columns: repeat(2,auto);

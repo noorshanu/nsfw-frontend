@@ -21,10 +21,10 @@ function Roadmap() {
             <h2>Roadmap</h2>
             <hr className="low-hr" />
           </div>
-             {/* <RoadMapMob/> */}
+             <RoadMapMob/>
           <img src={RoadEle3} alt="" className="road-ele3"/>
-       
-          <div className="first-b">
+       <div className="pc-roadmap">
+       <div className="first-b">
             <div className="road_num">
               <h1 data-aos="fade-up-left" data-aos-duration="2000">01</h1>
             </div>
@@ -115,6 +115,9 @@ function Roadmap() {
               <h1 data-aos="fade-up-right" data-aos-duration="2000">04</h1>
             </div>
           </div>
+
+       </div>
+    
 
         </div>
         <img src={RoadEle4} alt="" className="road-ele4"/>

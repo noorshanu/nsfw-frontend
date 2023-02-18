@@ -209,8 +209,27 @@
   z-index: 2;
   overflow: hidden;
 }
-
+.pc-roadmap{
+  display: block;
+}
+.road-map-mob{
+  display: none;
+}
 @media (max-width:768px) {
-  
-  
+  .road-map-mob{
+    display: block;
+  }
+  .pc-roadmap{
+    display: none;
+  }
+  .roadl{
+    display: none;
+  }
+  .road-ele{
+    display: none;
+
+  }
+  .road-ele2{
+    display: none;
+  }
 }
