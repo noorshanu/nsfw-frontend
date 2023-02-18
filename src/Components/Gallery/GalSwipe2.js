@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 // import required modules
-import { Pagination } from "swiper";
+import {Autoplay, Pagination } from "swiper";
 
 import Nft1 from "../../Assets/Eco/gal/img1.png";
 import Nft2 from "../../Assets/Eco/gal/img2.svg";
@@ -23,10 +23,13 @@ function GalSwipe2() {
     <Swiper
             slidesPerView={5}
             spaceBetween={1}
-            pagination={{
-              clickable: true,
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: true,
+              reverseDirection:true,
+
             }}
-            modules={[Pagination]}
+            modules={[Autoplay,Pagination]}
             className="mySwiper"
           >
             <SwiperSlide>
