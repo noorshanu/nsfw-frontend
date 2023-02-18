@@ -164,6 +164,7 @@
   top: 35px;
   left: -224px;
   z-index: -9;
+  overflow: hidden;
 }
 
 .roadl{
@@ -173,12 +174,14 @@
   right: -283px;
   z-index: -9;
   width: 100%;
+  overflow: hidden;
 }
 .road-ele{
   position: absolute;
   left: 0;
     top: 29%;
     z-index: 2;
+    overflow: hidden;
 }
 .road-ele2{
   position: absolute;
@@ -186,6 +189,7 @@
   top: 63%;
   width: 26%;
   z-index: 2;
+  overflow: hidden;
 }
 
 .road-ele3{
@@ -194,6 +198,7 @@
   top: -39%;
   width: 53%;
   z-index: 2;
+  overflow: hidden;
 }
 
 .road-ele4{
@@ -202,6 +207,7 @@
   top: 63%;
   width: 26%;
   z-index: 2;
+  overflow: hidden;
 }
 
 @media (max-width:768px) {
