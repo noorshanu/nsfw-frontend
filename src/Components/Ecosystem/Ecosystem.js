@@ -40,7 +40,7 @@ function Ecosystem() {
               // reverseDirection:true,
 
             }}
-            spaceBetween={1}
+            spaceBetween={10}
           
             modules={[Autoplay,Pagination]}
             className="mySwiper"
