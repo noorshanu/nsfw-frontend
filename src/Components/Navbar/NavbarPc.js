@@ -15,23 +15,23 @@ function NavbarPc() {
       <div className="nav-box">
         <ul>
           <li>
-            <a href="/"><RiHomeSmile2Line /></a>
+            <a href="#home"><RiHomeSmile2Line /></a>
             
           </li>
           <li>
-            <a href="/"> <CiGlobe /></a>
+            <a href="#eco"> <CiGlobe /></a>
            
           </li>
           <li>
-            <a href="/">  <MdAddChart/></a>
+            <a href="#tokonomic">  <MdAddChart/></a>
           
           </li>
           <li>
-            <a href="/"><TbRoad /></a>
+            <a href="#roadmap"><TbRoad /></a>
             
           </li>
           <li>
-            <a href="/"><MdOutlinePhotoFilter/></a>
+            <a href="#gallery"><MdOutlinePhotoFilter/></a>
           </li>
         </ul>
       </div>

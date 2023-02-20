@@ -6,7 +6,7 @@ import LightImg from '../../Assets/elements/light-line.svg'
 function Tokenomic() {
   return (
     <>
-      <section className="toko_system">
+      <section className="toko_system" id="tokonomic">
         <div className="container">
           <div className="header-text text-center">
             <h2>Tokenomics</h2>

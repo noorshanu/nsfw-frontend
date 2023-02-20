@@ -7,7 +7,7 @@ import last from "../../Assets/Eco/last.png";
 
 function EcoList() {
   return (
-    <section className="eco-list">
+    <section className="eco-list" >
       <div className="container">
         <div className="eco-list-grid">
           <div className="eco-box"  data-aos="fade-up" data-aos-duration="1000" >

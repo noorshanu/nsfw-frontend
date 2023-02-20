@@ -15,7 +15,7 @@ function Roadmap() {
     <>
       <img src={BackBG} alt="" className="road-dapp" />
       {/* <img src={BackBGm} alt="" className="road-dapp2" /> */}
-      <section className="Roadmap">
+      <section className="Roadmap" id="roadmap">
         <div className="container">
           <div className="header-text text-center">
             <h2>Roadmap</h2>

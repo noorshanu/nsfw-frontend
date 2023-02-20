@@ -7,6 +7,7 @@ import BgBack from '../../Assets/elements/black.png'
 function Gallery() {
   return (
     <section className="gallery">
+       <br id="gallery"/>
       <img src={BgBack} alt="" className="black-ele"/>
       <div className="container align-items-center text-center" data-aos="zoom-in-up"  data-aos-duration="2000">
         <div className="header-text text-center">
