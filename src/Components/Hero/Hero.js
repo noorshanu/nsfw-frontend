@@ -13,6 +13,7 @@ function Hero() {
        autoPlay
        muted
         src={Mainbg}
+        id='main-vid'
            
       />    
       <div className="container   content2">
