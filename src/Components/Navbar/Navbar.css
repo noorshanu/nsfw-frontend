@@ -36,8 +36,20 @@
   list-style: none;
   padding-bottom: 15px;
   padding-top: 15px;
+ 
+}
+.nav-box ul li a{
+  list-style: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
   font-size: 30px;
   color: #fff;
+}
+.nav-box ul li a:hover{
+  color: #c429f1;
+transition: 600ms ease-in;
+border-radius: 50%;
+
 }
 .nav-box ul {
   padding-left: 1.2rem;

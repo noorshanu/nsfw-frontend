@@ -15,19 +15,23 @@ function NavbarPc() {
       <div className="nav-box">
         <ul>
           <li>
-            <RiHomeSmile2Line />
+            <a href="/"><RiHomeSmile2Line /></a>
+            
           </li>
           <li>
-            <CiGlobe />
+            <a href="/"> <CiGlobe /></a>
+           
           </li>
           <li>
-            <MdAddChart/>
+            <a href="/">  <MdAddChart/></a>
+          
           </li>
           <li>
-            <TbRoad />
+            <a href="/"><TbRoad /></a>
+            
           </li>
           <li>
-            <MdOutlinePhotoFilter/>
+            <a href="/"><MdOutlinePhotoFilter/></a>
           </li>
         </ul>
       </div>

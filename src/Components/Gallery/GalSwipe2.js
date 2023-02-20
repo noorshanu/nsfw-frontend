@@ -22,7 +22,7 @@ function GalSwipe2() {
     >
     <Swiper
             slidesPerView={5}
-            spaceBetween={1}
+            spaceBetween={30}
             autoplay={{
               delay: 1500,
               disableOnInteraction: true,

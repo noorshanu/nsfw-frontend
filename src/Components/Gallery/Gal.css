@@ -31,6 +31,7 @@
   background: linear-gradient(109.36deg, #0bc7ff 12.02%, #db0efe 94.83%);
   border-radius: 5px;
   color: #ffffff;
+  transition: 400ms ease-in-out;
 }
 
 .gallery {

@@ -21,7 +21,7 @@ function GalSwipe1() {
     <div className='gal-box' data-aos="fade-left">
     <Swiper
             slidesPerView={5}
-            spaceBetween={10}
+            spaceBetween={30}
             autoplay={{
               delay: 1500,
               disableOnInteraction: true,
