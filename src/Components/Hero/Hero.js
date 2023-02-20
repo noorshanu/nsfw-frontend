@@ -1,12 +1,22 @@
 import React from "react";
 import "./Hero.css";
 
+import Mainbg from '../../Assets/mainbg.mp4'
+
 import { MdQrCode } from "react-icons/md";
 function Hero() {
   return (
     <section className="nsf-bg">
-      <div className="container">
-        <div className="row align-items-center justify-content-center">
+       <video
+       playsInline
+       loop
+       autoPlay
+       muted
+        src={Mainbg}
+           
+      />    
+      <div className="container   content2">
+        <div className="row  justify-content-center">
           <div className="col-md-6 nsf-first">
             <div className="head-top" data-aos="zoom-out" data-aos-duration="3000" >
               <h1>Build</h1>

@@ -3,8 +3,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  height: 100%;
+  width: 100%;
 }
 
 .head-top h1 {
@@ -151,7 +151,19 @@ margin-bottom: 1px;
   margin-bottom: 0px;
   color: #fff;
 }
-
+.content2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 97px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+}
 @media (max-width:768px) {
   .top-box-hero{
     display: none;
