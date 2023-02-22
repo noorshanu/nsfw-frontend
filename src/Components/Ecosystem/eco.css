@@ -106,8 +106,8 @@ border-image-slice: 1;
 border-image-source: linear-gradient( 180deg, rgba(233, 155, 255, 0.17) 0%, #e99dff 52.08%, rgba(227, 132, 255, 0.17) 100% );
  /* border: 2px solid rgb(174, 2, 174); */
  box-shadow: 0 0 32px 0 rgba(174, 2, 174, 0.54);
- transition: 400ms ease-in ;
- margin: 0.5px;
+ transition: all 0.3s ease;
+ transform: translateY(-3px);
 }
 .eco-grid {
   padding-top: 2%;

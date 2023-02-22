@@ -22,8 +22,9 @@ function GalSwipe1() {
     <Swiper
             slidesPerView={5}
             spaceBetween={30}
+            speed={1200}
             autoplay={{
-              delay: 1500,
+              delay: 1,
               disableOnInteraction: true,
               // reverseDirection:true,
 

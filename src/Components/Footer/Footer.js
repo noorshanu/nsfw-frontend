@@ -23,10 +23,11 @@ function Footer() {
 
                     <div className='foot-social'>
                         <ul>
-                            <li><img src={Tweet} alt=""/></li>
-                            <li><img src={Tele} alt=""/></li>
-                            <li><img src={Uni} alt=""/></li>
-                            <li><img src={BSC} alt=""/></li>
+                            <li><a href="/"><img src={Tweet} alt=""/></a>
+                                </li>
+                            <li><a href="/"><img src={Tele} alt=""/></a></li>
+                            <li><a href="/"><img src={Uni} alt=""/></a></li>
+                            <li><a href="/"><img src={BSC} alt=""/></a></li>
                         </ul>
 
                     </div>

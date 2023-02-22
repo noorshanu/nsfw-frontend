@@ -54,6 +54,16 @@ color: #FFFFFF;
     display: flex;
     gap: 30px;
 }
+.foot-social ul li a img{
+    cursor: pointer;
+}
+
+.foot-social ul li a img:hover{
+    background-color: blueviolet;
+border-radius: 50%;
+
+    
+}
 @media (max-width:768px) {
     .left-center{
         display: none;
