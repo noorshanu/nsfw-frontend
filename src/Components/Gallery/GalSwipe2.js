@@ -7,13 +7,14 @@ import "swiper/css/pagination";
 // import required modules
 import {Autoplay, Pagination } from "swiper";
 
-import Nft1 from "../../Assets/Eco/gal/img1.png";
-import Nft2 from "../../Assets/Eco/gal/img2.svg";
-// import Nft4 from "../../Assets/Eco/gal/img4.svg";
-import Nft5 from "../../Assets/Eco/gal/img5.svg";
-import Cap4 from '../../Assets/cap4.png'
-import Nft7 from "../../Assets/Eco/gal/img7.svg";
-import Nft8 from "../../Assets/Eco/gal/img8.svg";
+import Nft1 from "../../Assets/Gallery/gal9.jpg";
+import Nft2 from "../../Assets/Gallery/gal10.jpg";
+import Nft4 from "../../Assets/Gallery/gal11.jpg";
+import Nft5 from "../../Assets/Gallery/gal12.jpg";
+import Cap4 from '../../Assets/Gallery/gal13.jpg'
+import Nft7 from "../../Assets/Gallery/gal14.jpg";
+import Nft8 from "../../Assets/Gallery/gal15.jpg";
+import Nft9 from "../../Assets/Gallery/gal16.jpg";
 
 function GalSwipe2() {
   return (
@@ -52,10 +53,10 @@ function GalSwipe2() {
               <img src={Nft5} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft7} alt="" />
+              <img src={Nft4} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Nft5} alt="" />
+              <img src={Nft9} alt="" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={Nft2} alt="" />
