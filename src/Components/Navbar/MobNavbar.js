@@ -19,23 +19,27 @@ function MobNavbar() {
       </nav>
       <div className="float-nav">
         <div className="nav-box">
-          <ul>
-            <li>
-              <RiHomeSmile2Line />
-            </li>
-            <li>
-              <CiGlobe />
-            </li>
-            <li>
-              <MdAddChart />
-            </li>
-            <li>
-              <TbRoad />
-            </li>
-            <li>
-              <MdOutlinePhotoFilter />
-            </li>
-          </ul>
+        <ul>
+          <li>
+            <a href="#home"><RiHomeSmile2Line /></a>
+            
+          </li>
+          <li>
+            <a href="#eco"> <CiGlobe /></a>
+           
+          </li>
+          <li>
+            <a href="#tokonomic">  <MdAddChart/></a>
+          
+          </li>
+          <li>
+            <a href="#roadmap"><TbRoad /></a>
+            
+          </li>
+          <li>
+            <a href="#gallery"><MdOutlinePhotoFilter/></a>
+          </li>
+        </ul>
         </div>
       </div>
     </div>

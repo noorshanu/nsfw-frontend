@@ -56,10 +56,20 @@
   z-index: -13;
   margin-top: -46%;
 }
-
+.mob-gal-1{
+  display: none;
+}
 @media (max-width:768px) {
   .gal-box{
     display: none;
+  }
+.gal-img img{
+  margin: 2%;
+  height: 285px;
+  width: 97%;
+}
+  .mob-gal-1{
+    display: block;
   }
     .gal-btn-wrap{
         display: grid;

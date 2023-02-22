@@ -216,6 +216,12 @@
   display: none;
 }
 @media (max-width:768px) {
+  .road_num::before{
+    display: none;
+  }
+  .road_num h1::before{
+    display: none;
+  }
   .road-map-mob{
     display: block;
   }
@@ -232,4 +238,37 @@
   .road-ele2{
     display: none;
   }
+  .road_details {
+    position: unset;
+    right: -19%;
+    top:21px;
+    width: 100%;
+    background: rgba(5, 5, 46, 0.33);
+  backdrop-filter: blur(180px);
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    286.28deg,
+    #857baf -2.9%,
+    rgba(133, 123, 175, 0) 168.51%
+  );
+  color: #fff;
+  padding: 12px 18px 12px 18px;
+}
+
+.road_details2 {
+    text-align:center;
+    position: unset;
+    left: -33%;
+    top:21px;
+    width: 100%;
+    background: rgba(5, 5, 46, 0.33);
+    -webkit-backdrop-filter: blur(180px);
+    backdrop-filter: blur(180px);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient( 286.28deg, #857baf -2.9%, rgba(133, 123, 175, 0) 168.51% );
+    color: #fff;
+    padding: 12px 18px 12px 18px;
+}
 }

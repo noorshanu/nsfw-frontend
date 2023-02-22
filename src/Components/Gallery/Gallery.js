@@ -3,6 +3,7 @@ import './Gal.css'
 import GalSwipe1 from "./GalSwipe1";
 import GalSwipe2 from "./GalSwipe2";
 import BgBack from '../../Assets/elements/black.png'
+import MobGallery from "./MobGallery";
 
 function Gallery() {
   return (
@@ -30,6 +31,7 @@ function Gallery() {
 
         </div>
       </div>
+      <MobGallery/>
       <GalSwipe1/>
 
       <GalSwipe2/>
