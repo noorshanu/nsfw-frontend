@@ -255,6 +255,13 @@
   color: #fff;
   padding: 12px 18px 12px 18px;
 }
+.road_num h1 {
+  font-family: Monomaniac One;
+  font-size: 258px;
+  font-weight: 400;
+  line-height: 290px;
+  letter-spacing: 0em;
+  text-align: center;}
 
 .road_details2 {
     text-align:center;

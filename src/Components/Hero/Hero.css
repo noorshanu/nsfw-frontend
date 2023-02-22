@@ -18,6 +18,15 @@
   text-align: left;
 }
 
+.head-top-m h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
 .button-background-move {
   padding: 16px 35px 16px;
   outline: 0;
@@ -183,7 +192,15 @@
   }
   .head-top-m{
     display: block;
-    margin-top: 24%;
+    margin-top: 65%;
+  }
+  .nsf-first{
+    padding-left: 20px !important;
+    text-align: center;
+justify-content: center;
+  }
+  .btn-wrap{
+    justify-content: center;
   }
   .nsf-bg{
     padding-bottom: 10%;
