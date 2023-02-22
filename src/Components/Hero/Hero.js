@@ -25,6 +25,12 @@ function Hero() {
               <h1>NSFW</h1>
               <h1>Fantasies</h1>
             </div>
+            <div className="head-top-m" data-aos="zoom-out" data-aos-duration="3000" >
+              <h1>Build Your</h1>
+            
+              <h1>NSFW Fantasies</h1>
+             
+            </div>
 
             <div className="btn-wrap" data-aos="zoom-out" data-aos-duration="3000" >
               <a href="/" className="button-background-move">

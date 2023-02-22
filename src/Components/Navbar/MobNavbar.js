@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { RiHomeSmile2Line } from "react-icons/ri";
 import { CiGlobe } from "react-icons/ci";
 import { TbRoad } from "react-icons/tb";
@@ -7,17 +7,22 @@ import Logo from "../../Assets/logo-main.svg";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 
 function MobNavbar() {
+  const [openNav,setOpenNav] =useState(false)
+
+  const handleClick =()=>{
+    setOpenNav(!openNav)
+  }
   return (
     <div className="mob-menu">
       <nav className="mob-nav">
         <div className="mnav-logo">
           <img src={Logo} alt="" />
         </div>
-        <a href="/" className="menubar">
+        <a href="#open" className="menubar" onClick={handleClick}>
           <RiBarChartHorizontalLine />
         </a>
       </nav>
-      <div className="float-nav">
+      <div className={openNav? "float-nav active-mob":'d-none'}>
         <div className="nav-box">
         <ul>
           <li>

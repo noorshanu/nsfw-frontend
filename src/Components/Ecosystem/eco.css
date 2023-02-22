@@ -136,6 +136,11 @@ border-image-source: linear-gradient( 180deg, rgba(233, 155, 255, 0.17) 0%, #e99
 }
 
 @media (max-width: 768px) {
+  .eco_system {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
   .eco-grid {
     display: none;
   }
