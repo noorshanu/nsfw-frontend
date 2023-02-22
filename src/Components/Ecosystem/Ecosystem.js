@@ -35,7 +35,7 @@ function Ecosystem() {
         <div className="eco-grid">
           <Swiper
             slidesPerView={5}
-            speed={1200}
+            speed={1100}
             autoplay={{
               delay: 1,
               disableOnInteraction: true,
