@@ -26,10 +26,10 @@ function Roadmap() {
        <div className="pc-roadmap">
        <div className="first-b">
             <div className="road_num">
-              <h1 data-aos="fade-up-left" data-aos-duration="2000">01</h1>
+              <h1 data-aos="fade-up-left" data-aos-duration="1000">01</h1>
             </div>
             <div className="road-d-box">
-              <div className="road_details" data-aos="fade-up-right" data-aos-duration="2000">
+              <div className="road_details" data-aos="fade-up-right" data-aos-duration="1000">
                 <ul>
                   <li>Creation of concept</li>
                   <li>Creation of Website & Tokenomics</li>
@@ -46,7 +46,7 @@ function Roadmap() {
 
           <div className="first-b">
             <div className="road-d-box">
-              <div className="road_details2"  data-aos="fade-up-left" data-aos-duration="2000">
+              <div className="road_details2"  data-aos="fade-up-left" data-aos-duration="1000">
                 <ul>
                   <li>Creation of concept</li>
                   <li>Creation of Website & Tokenomics</li>
@@ -62,7 +62,7 @@ function Roadmap() {
             </div>
 
             <div className="road_num2">
-              <h1 data-aos="fade-up-right" data-aos-duration="2000">02</h1>
+              <h1 data-aos="fade-up-right" data-aos-duration="1000">02</h1>
             </div>
           </div>
 
@@ -71,10 +71,10 @@ function Roadmap() {
 
           <div className="first-b">
             <div className="road_num">
-              <h1 data-aos="fade-up-left" data-aos-duration="2000">03</h1>
+              <h1 data-aos="fade-up-left" data-aos-duration="1000">03</h1>
             </div>
             <div className="road-d-box">
-              <div className="road_details" data-aos="fade-up-right" data-aos-duration="2000">
+              <div className="road_details" data-aos="fade-up-right" data-aos-duration="1000">
                 <ul>
                   <li>Creation of concept</li>
                   <li>Creation of Website & Tokenomics</li>
@@ -96,7 +96,7 @@ function Roadmap() {
 
           <div className="first-b">
             <div className="road-d-box">
-              <div className="road_details2" data-aos="fade-up-left" data-aos-duration="2000">
+              <div className="road_details2" data-aos="fade-up-left" data-aos-duration="1000">
                 <ul>
                   <li>Creation of concept</li>
                   <li>Creation of Website & Tokenomics</li>
@@ -112,7 +112,7 @@ function Roadmap() {
             </div>
 
             <div className="road_num2">
-              <h1 data-aos="fade-up-right" data-aos-duration="2000">04</h1>
+              <h1 data-aos="fade-up-right" data-aos-duration="1000">04</h1>
             </div>
           </div>
 

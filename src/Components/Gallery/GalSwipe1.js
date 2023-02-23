@@ -19,7 +19,7 @@ import Cap7 from "../../Assets/Gallery/gal8.jpg"
 function GalSwipe1() {
   return (
     <>
-    <div className='gal-box' data-aos="fade-left">
+    <div className='gal-box' data-aos="fade-left" data-aos-duration="1000"> 
     <Swiper
             slidesPerView={5}
             spaceBetween={30}

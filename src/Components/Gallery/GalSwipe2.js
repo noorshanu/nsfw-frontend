@@ -19,7 +19,7 @@ import Nft9 from "../../Assets/Gallery/gal16.jpg";
 function GalSwipe2() {
   return (
     <>
-    <div className='gal-box' data-aos="fade-right"
+    <div className='gal-box' data-aos="fade-right" data-aos-duration="1000"
     >
     <Swiper
             slidesPerView={5}
