@@ -3,6 +3,7 @@ import TokenImg from "../../Assets/token.png";
 import MobTokenImg from "../../Assets/mob-token.png";
 import './token.css'
 import LightImg from '../../Assets/elements/light-line.svg'
+import LottieToken from "./LottieToken";
 function Tokenomic() {
   return (
     <>
@@ -14,22 +15,25 @@ function Tokenomic() {
           </div>
 
           <div className="">
-          <div className="token_details">
+          {/* <div className="token_details">
             <p className="cold">Cold Storage 10%</p>
             <p className="stake">Staking 20%</p>
             <p className="dex">Dex Liquidity 20%</p>
-          </div>
+          </div> */}
           <div className="token text-center">
-            <img src={TokenImg} alt=""  className="pc-tok"/>
+            {/* <img src={TokenImg} alt=""  className="pc-tok"/> */}
             <img src={MobTokenImg} alt="" className="mob-tok"/>
+           <div className="pc-tok">
+           <LottieToken/>
+           </div>
             
           </div>
 
-          <div className="token_details">
+          {/* <div className="token_details">
             <p className="team-1">Team Vesting 5%</p>
             <p className="stake-1">Staking 20%</p>
             <p className="exchange">Exchange Listings 15%</p>
-          </div>
+          </div> */}
 
 
 
