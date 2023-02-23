@@ -13,8 +13,6 @@ function EcoList() {
   const [display3, setDisplay3] = useState("notdisplayed");
   const [display4, setDisplay4] = useState("notdisplayed");
 
-
-
   const showButton = (e) => {
     e.preventDefault();
     setDisplay("displayed");
@@ -24,8 +22,6 @@ function EcoList() {
     e.preventDefault();
     setDisplay("notdisplayed");
   };
-
-
 
   const showButton1 = (e) => {
     e.preventDefault();
@@ -37,7 +33,6 @@ function EcoList() {
     setDisplay1("notdisplayed");
   };
 
-
   const showButton2 = (e) => {
     e.preventDefault();
     setDisplay2("displayed");
@@ -47,9 +42,6 @@ function EcoList() {
     e.preventDefault();
     setDisplay2("notdisplayed");
   };
-
-
-
 
   const showButton3 = (e) => {
     e.preventDefault();
@@ -61,8 +53,6 @@ function EcoList() {
     setDisplay3("notdisplayed");
   };
 
-
-
   const showButton4 = (e) => {
     e.preventDefault();
     setDisplay4("displayed");
@@ -72,8 +62,6 @@ function EcoList() {
     e.preventDefault();
     setDisplay4("notdisplayed");
   };
-
-
 
   return (
     <section className="eco-list">
@@ -100,9 +88,12 @@ function EcoList() {
             </p>
           </div>
 
-          <div className="eco-box" data-aos="fade-up" data-aos-duration="1000"
-           onMouseEnter={(e) => showButton1(e)}
-           onMouseLeave={(e) => hideButton1(e)}
+          <div
+            className="eco-box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            onMouseEnter={(e) => showButton1(e)}
+            onMouseLeave={(e) => hideButton1(e)}
           >
             <div className="eco-icon-box">
               <img src={Play} alt="" />
@@ -116,9 +107,13 @@ function EcoList() {
               generate NSFW images.
             </p>
           </div>
-          <div className="eco-box" data-aos="fade-up" data-aos-duration="2000"
-             onMouseEnter={(e) => showButton2(e)}
-             onMouseLeave={(e) => hideButton2(e)}>
+          <div
+            className="eco-box"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            onMouseEnter={(e) => showButton2(e)}
+            onMouseLeave={(e) => hideButton2(e)}
+          >
             <div className="eco-icon-box">
               <img src={Nft} alt="" />
             </div>
@@ -133,9 +128,13 @@ function EcoList() {
             </p>
           </div>
 
-          <div className="eco-box" data-aos="fade-up" data-aos-duration="2000"
-             onMouseEnter={(e) => showButton3(e)}
-             onMouseLeave={(e) => hideButton3(e)}>
+          <div
+            className="eco-box"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            onMouseEnter={(e) => showButton3(e)}
+            onMouseLeave={(e) => hideButton3(e)}
+          >
             <div className="eco-icon-box">
               <img src={Nft2} alt="" />
             </div>
@@ -150,9 +149,13 @@ function EcoList() {
             </p>
           </div>
 
-          <div className="eco-box" data-aos="fade-up" data-aos-duration="3000"
-             onMouseEnter={(e) => showButton4(e)}
-             onMouseLeave={(e) => hideButton4(e)}>
+          <div
+            className="eco-box"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            onMouseEnter={(e) => showButton4(e)}
+            onMouseLeave={(e) => hideButton4(e)}
+          >
             <div className="eco-icon-box">
               <img src={last} alt="" />
             </div>
