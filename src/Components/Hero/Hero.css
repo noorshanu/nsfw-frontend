@@ -184,8 +184,9 @@
 }
 @media (max-width: 768px) {
   #main-vid {
-    object-fit: contain !important;
-    display: none;
+  
+    display: block;
+    height: 50vh;
   }
   .head-top{
     display: none;
@@ -197,20 +198,12 @@
   .nsf-first{
     padding-left: 20px !important;
     text-align: center;
-justify-content: center;
+    justify-content: center;
   }
   .btn-wrap{
     justify-content: center;
   }
-  .nsf-bg{
-    padding-bottom: 10%;
-      background-image: url("../../Assets/Hero/hero.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vh;
-  width: 100%;
-  }
+ 
   .top-box-hero {
     display: none;
   }
@@ -218,5 +211,9 @@ justify-content: center;
     padding: 8px 34px 8px;
 
     font-size: 13px;
+  }
+  .content2 {
+
+    top: 17px;
   }
 }

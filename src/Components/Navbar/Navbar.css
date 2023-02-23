@@ -109,6 +109,8 @@ border-radius: 50%;
   }
   .mob-menu{
     display: block;
+    z-index: 999;
+    position: relative;
   }
   .float-nav{
     margin-top: 13.4%;
