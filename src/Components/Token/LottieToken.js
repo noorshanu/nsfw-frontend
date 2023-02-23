@@ -1,7 +1,7 @@
 
 import React  from "react";
 import {create} from '@lottiefiles/lottie-interactivity'
-import Lottie from 'react-lottie';
+
 
 
 

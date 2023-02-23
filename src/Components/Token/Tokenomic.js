@@ -1,5 +1,5 @@
 import React from "react";
-import TokenImg from "../../Assets/token.png";
+// import TokenImg from "../../Assets/token.png";
 import MobTokenImg from "../../Assets/mob-token.png";
 import './token.css'
 import LightImg from '../../Assets/elements/light-line.svg'
