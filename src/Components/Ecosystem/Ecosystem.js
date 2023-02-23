@@ -79,11 +79,15 @@ function Ecosystem() {
         <div className="eco-grid2">
           <Swiper
             slidesPerView={2}
-            spaceBetween={0}
-            pagination={{
-              clickable: true,
+            spaceBetween={5}
+            speed={1100}
+            autoplay={{
+              delay: 1,
+              disableOnInteraction: true,
+              // reverseDirection:true,
+
             }}
-            modules={[Pagination]}
+            modules={[Autoplay,Pagination]}
             className="mySwiper"
           >
             <SwiperSlide>

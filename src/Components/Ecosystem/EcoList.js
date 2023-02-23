@@ -47,7 +47,7 @@ function EcoList() {
             </div>
             <p>NSFW Video Generator</p>
           </div>
-          <div className={`box-1-eco  ${display} `}>
+          <div className={`box-2-eco  ${display} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
               dreams, we will have both webapp as well as telegram bot to
@@ -61,7 +61,7 @@ function EcoList() {
             <p>One Click NFT Minter</p>
           </div>
 
-          <div className={`box-1-eco  ${display} `}>
+          <div className={`box-3-eco  ${display} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
               dreams, we will have both webapp as well as telegram bot to
@@ -76,7 +76,7 @@ function EcoList() {
             <p>NFT Marketplace</p>
           </div>
 
-          <div className={`box-1-eco  ${display} `}>
+          <div className={`box-4-eco  ${display} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
               dreams, we will have both webapp as well as telegram bot to
@@ -90,7 +90,7 @@ function EcoList() {
             </div>
             <p>Governance Dao</p>
           </div>
-          <div className={`box-1-eco  ${display} `}>
+          <div className={`box-5-eco  ${display} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
               dreams, we will have both webapp as well as telegram bot to
