@@ -8,7 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init();
+AOS.init({
+  disable: window.innerWidth < 768,
+});
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
