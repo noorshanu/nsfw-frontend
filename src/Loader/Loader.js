@@ -1,5 +1,5 @@
 import React from 'react'
-import LoaderBg from '../Assets/loader.mp4'
+import LoaderBg from '../Assets/loader.webm'
 import Lottie from 'react-lottie';
 import animationData from './loader.json';
 function Loader() {
