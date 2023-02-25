@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 
-import Mainbg from '../../Assets/mainbg.mp4'
+import Mainbg from '../../Assets/mainbg.webm'
 
 import { MdQrCode } from "react-icons/md";
 function Hero() {
