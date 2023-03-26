@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+scroll-behavior: smooth;
+
+}
+
+
+
+body {
+  font-family: 'Inconsolata' !important;
+  background-color: rgba(2, 1, 25, 1) !important;
+  cursor: url('./Assets/point.png'),auto;
+
+}
+a{
+  text-decoration: none !important;
+  color: #fff ;
+
+}
+li{
+  list-style: none !important;
+}
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 97px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+

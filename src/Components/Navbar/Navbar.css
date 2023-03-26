@@ -1,0 +1,133 @@
+.address-bar {
+  background: linear-gradient(160.01deg, #c429f1 2.67%, #ff8a4f 118.95%);
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+.address-bar h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nav-box {
+  background: linear-gradient( 180deg, rgba(179, 27, 193, 0.13) 0%, rgba(106, 9, 134, 0.13) 100% );
+  -webkit-backdrop-filter: blur(40.5px);
+  backdrop-filter: blur(40.5px);
+  border: 2px solid;
+    border-image-slice: 100%;
+    border-image-source: none;
+  border-image-slice: 1;
+  border-image-source: linear-gradient( 180deg, rgba(233, 155, 255, 0.17) 0%, #e99dff 52.08%, rgba(227, 132, 255, 0.17) 100% );
+  width: 71px;
+}
+.float-nav {
+  position: absolute;
+  margin-top: 8.4%;
+  left: 49px;
+  z-index: 10;
+}
+.nav-logo {
+  position: absolute;
+  z-index: 999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 49px;
+}
+.nav-logo img{
+  width: auto;
+  height: 45px ;
+}
+.nav-box ul li {
+  list-style: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+ 
+}
+.nav-box ul li a{
+  list-style: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+.nav-box ul li a:hover{
+  color: #c429f1;
+transition: 600ms ease-in;
+border-radius: 50%;
+
+}
+.nav-box ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0px;
+}
+.nav-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pc-menu{
+  display: block;
+}
+.mob-menu{
+  display: none;
+}
+.mob-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 15px;
+  position: absolute;
+  gap: 14rem;
+}
+.mnav-logo img{
+  width: auto;
+  height: 32px;
+
+}
+.menubar {
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media (max-width:768px) {
+  .nav-box{
+    padding: 0;
+    width: 60px;
+  }
+
+  .nav-box ul li a{
+    font-size: 15px;
+    
+  }
+  .active-mob{
+    transition: 0.3s ease-in-out;
+    transform: translateY(3px);
+  }
+  .pc-menu{
+    display: none;
+  }
+  .mob-menu{
+    display: block;
+    z-index: 999;
+    position: relative;
+  }
+  .float-nav{
+    margin-top: 13.4%;
+    left: 0px;
+  }
+
+  .address-bar h2 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.eco-list-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+}
+}

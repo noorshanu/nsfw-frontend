@@ -1,0 +1,219 @@
+.nsf-bg {
+  /* background-image: url("../../Assets/Hero/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; */
+}
+.head-top{
+  display: block;
+}
+.head-top h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.head-top-m h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.button-background-move {
+  padding: 16px 35px 16px;
+  outline: 0;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+  position: relative;
+  background-color: #c429f1;
+  color: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 4;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.button-background-move:after {
+  content: "";
+  background-color: #ffe54c00;
+  width: 100%;
+  z-index: -2;
+  position: absolute;
+  height: 100%;
+  border: 3px solid #c429f1;
+  border-radius: 3px;
+  top: 9px;
+
+  left: 11px;
+  transition: 0.2s;
+}
+.button-background-move:hover {
+  color: #000;
+  transition: 600ms ease-in;
+}
+.button-background-move:hover:after {
+  top: 0px;
+  transition: 500ms ease-in;
+  box-shadow: 0 0 32px 0 rgba(174, 2, 174, 0.54);
+  left: 0px;
+}
+.head-top {
+  margin-top: 24%;
+}
+
+.btn-wrap {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.nsf-first {
+  padding-left: calc(var(--bs-gutter-x) * 3.5) !important;
+}
+
+.hero-demo-box {
+  background-image: url("../../Assets/cap1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 186px;
+  margin-bottom: 22px;
+  height: 203px;
+}
+.hero-demo-box2 {
+  background-image: url("../../Assets/cap2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 186px;
+  margin-bottom: 22px;
+  height: 203px;
+}
+.hero-demo-box3 {
+  background-image: url("../../Assets/cap3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 186px;
+  margin-bottom: 22px;
+  height: 203px;
+}
+.top-box-hero {
+  position: absolute;
+  right: 5%;
+  top: 1.7%;
+}
+.eth-box {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  display: flex;
+  float: right;
+  margin: 5%;
+  padding: 4%;
+  align-items: center;
+  border-radius: 3px;
+}
+#main-vid {
+  object-fit: contain !important;
+}
+.eth-box h1 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.qr-box {
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(7px);
+  /* Note: backdrop-filter has minimal browser support */
+  position: relative;
+  top: 104px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 5%;
+  padding: 4%;
+  border-radius: 2px;
+  align-items: center;
+}
+.qr-box h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1px;
+}
+.qr-box p {
+  margin-bottom: 0px;
+  color: #fff;
+}
+.content2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 68px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+}
+.head-top-m{
+  display: none;
+}
+@media (max-width: 768px) {
+  #main-vid {
+  
+    display: block;
+    height: 50vh;
+  }
+  .head-top{
+    display: none;
+  }
+  .head-top-m{
+    display: block;
+    margin-top: 65%;
+  }
+  .nsf-first{
+    padding-left: 20px !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn-wrap{
+    justify-content: center;
+  }
+ 
+  .top-box-hero {
+    display: none;
+  }
+  .button-background-move {
+    padding: 8px 34px 8px;
+
+    font-size: 13px;
+  }
+  .content2 {
+
+    top: 17px;
+  }
+}
