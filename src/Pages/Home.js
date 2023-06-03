@@ -9,6 +9,7 @@ import NavbarPc from '../Components/Navbar/NavbarPc'
 import Roadmap from '../Components/Roadmap/Roadmap'
 import Tokenomic from '../Components/Token/Tokenomic'
 import Loader from '../Loader/Loader'
+import Modal from '../Components/Modal/Modal'
 
 function Home() {
   const [loading,setLoading] =useState(false)
@@ -26,6 +27,7 @@ function Home() {
       <Loader/>
       :
       <div data-aos="zoom-out" data-aos-duration="1000" >
+      <Modal/>
       <AddressBar/>
       <NavbarPc/>
       <MobNavbar/>

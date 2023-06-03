@@ -78,7 +78,6 @@ function EcoList() {
               <img src={One} alt="" />
             </div>
             <p>NSFW Image Generator</p>
-          </div>
           {/* */}
           <div className={`box-1-eco  ${display} `}>
             <p>
@@ -86,6 +85,7 @@ function EcoList() {
               dreams, we will have both webapp as well as telegram bot to
               generate NSFW images.
             </p>
+          </div>
           </div>
 
           <div
@@ -99,13 +99,13 @@ function EcoList() {
               <img src={Play} alt="" />
             </div>
             <p>NSFW Video Generator</p>
-          </div>
           <div className={`box-1-eco  ${display1} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
               dreams, we will have both webapp as well as telegram bot to
               generate NSFW images.
             </p>
+          </div>
           </div>
           <div
             className="eco-box"
@@ -118,8 +118,6 @@ function EcoList() {
               <img src={Nft} alt="" />
             </div>
             <p>One Click NFT Minter</p>
-          </div>
-
           <div className={`box-1-eco  ${display2} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
@@ -127,6 +125,8 @@ function EcoList() {
               generate NSFW images.
             </p>
           </div>
+          </div>
+
 
           <div
             className="eco-box"
@@ -139,8 +139,6 @@ function EcoList() {
               <img src={Nft2} alt="" />
             </div>
             <p>NFT Marketplace</p>
-          </div>
-
           <div className={`box-1-eco  ${display3} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
@@ -148,6 +146,8 @@ function EcoList() {
               generate NSFW images.
             </p>
           </div>
+          </div>
+
 
           <div
             className="eco-box"
@@ -160,13 +160,13 @@ function EcoList() {
               <img src={last} alt="" />
             </div>
             <p>Governance Dao</p>
-          </div>
-          <div className={`box-1-eco  ${display4} `}>
+          <div className={`box-4-eco  ${display4} `}>
             <p>
               NSFW Image generator is where you can start building your NSFW
               dreams, we will have both webapp as well as telegram bot to
               generate NSFW images.
             </p>
+          </div>
           </div>
         </div>
       </div>

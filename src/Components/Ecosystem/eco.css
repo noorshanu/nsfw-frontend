@@ -38,6 +38,7 @@
   );
   padding: 60px 30px 27px;
   text-align: center;
+  position: relative;
   border-radius: 4px;
 }
 .eco-box p {
@@ -48,6 +49,21 @@
   text-align: center;
   color: #fff;
   padding-top: 23px;
+}
+.eco-box-modal {
+
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(233, 155, 255, 0.17) 0%,
+    #e99dff 52.08%,
+    rgba(227, 132, 255, 0.17) 100%
+  );
+  padding: 60px 30px 27px;
+  text-align: center;
+  position: relative;
+  border-radius: 4px;
 }
 
 .eco-list-grid {
@@ -137,11 +153,10 @@ border-image-source: linear-gradient( 180deg, rgba(233, 155, 255, 0.17) 0%, #e99
 .notdisplayed {
   display: none;
 }
-.box-1-eco{
+.box-1-eco, .box-4-eco{
   width: 320px;
   margin-left: 27px;
   position: absolute;
-  margin-top: 17%;
   background: linear-gradient( 180deg, rgba(179, 27, 193, 0.13) 0%, rgba(106, 9, 134, 0.13) 100% );
   -webkit-backdrop-filter: blur(40.5px);
   backdrop-filter: blur(40.5px);
@@ -154,6 +169,9 @@ border-image-source: linear-gradient( 180deg, rgba(233, 155, 255, 0.17) 0%, #e99
   color: #fff;
   z-index: 10;
 
+}
+.box-4-eco{
+  right: 0;
 }
 .displayed {
 
