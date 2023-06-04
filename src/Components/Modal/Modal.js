@@ -1,11 +1,11 @@
 import { Fragment, useRef, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
+import { Router } from "react-router-dom";
 
 export default function Modal() {
   const [open, setOpen] = useState(true);
 
-  const cancelButtonRef = useRef(null);
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -78,7 +78,7 @@ export default function Modal() {
                     type="button"
                     className="inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
                     onClick={() => {
-                        window.location.href = "https://www.google.com/";
+                        window.location.href="/notallowed"
                     }}
                     
                   >
