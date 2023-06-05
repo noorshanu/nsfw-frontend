@@ -1,11 +1,11 @@
 import { Fragment, useRef, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
-import { Router } from "react-router-dom";
+import { Router, useNavigate } from "react-router-dom";
 
-export default function Modal() {
+export default function Modal({showContent, setShowContent}) {
   const [open, setOpen] = useState(true);
-
+  const navigate = useNavigate();
 
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -66,11 +66,13 @@ export default function Modal() {
                     </div>
                   </div>
                 </div>
-                <div className=" bg-[#020119] px-4 py-2 sm:flex sm:flex-row-reverse sm:px-6 items-center">
+                <div className=" bg-[#020119] px-4 py-2 sm:flex sm:flex-row-reverse gap-y-2 sm:px-6 items-center">
                   <button
                     type="button"
                     className="inline-flex w-full h-fit justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
-                    onClick={() => setOpen(false)}
+                    onClick={() => { 
+                      setShowContent(true)
+                      setOpen(false)}}
                   >
                     I am 18+
                   </button>
@@ -78,7 +80,7 @@ export default function Modal() {
                     type="button"
                     className="inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
                     onClick={() => {
-                        window.location.href="/notallowed"
+                        navigate("/notallowed")
                     }}
                     
                   >

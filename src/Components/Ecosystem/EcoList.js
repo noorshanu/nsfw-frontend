@@ -74,7 +74,7 @@ function EcoList() {
             onMouseEnter={(e) => showButton(e)}
             onMouseLeave={(e) => hideButton(e)}
           >
-            <div className="eco-icon-box">
+            <div className="eco-icon-box w-full flex justify-center items-center">
               <img src={One} alt="" />
             </div>
             <p>NSFW Image Generator</p>
@@ -95,7 +95,7 @@ function EcoList() {
             onMouseEnter={(e) => showButton1(e)}
             onMouseLeave={(e) => hideButton1(e)}
           >
-            <div className="eco-icon-box">
+            <div className="eco-icon-box w-full flex justify-center items-center">
               <img src={Play} alt="" />
             </div>
             <p>NSFW Video Generator</p>
@@ -114,7 +114,7 @@ function EcoList() {
             onMouseEnter={(e) => showButton2(e)}
             onMouseLeave={(e) => hideButton2(e)}
           >
-            <div className="eco-icon-box">
+            <div className="eco-icon-box w-full flex justify-center items-center">
               <img src={Nft} alt="" />
             </div>
             <p>One Click NFT Minter</p>
@@ -135,7 +135,7 @@ function EcoList() {
             onMouseEnter={(e) => showButton3(e)}
             onMouseLeave={(e) => hideButton3(e)}
           >
-            <div className="eco-icon-box">
+            <div className="eco-icon-box w-full flex justify-center items-center">
               <img src={Nft2} alt="" />
             </div>
             <p>NFT Marketplace</p>
@@ -156,7 +156,7 @@ function EcoList() {
             onMouseEnter={(e) => showButton4(e)}
             onMouseLeave={(e) => hideButton4(e)}
           >
-            <div className="eco-icon-box">
+            <div className="eco-icon-box w-full flex justify-center items-center">
               <img src={last} alt="" />
             </div>
             <p>Governance Dao</p>
