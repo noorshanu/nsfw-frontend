@@ -26,7 +26,7 @@
     rgba(179, 27, 193, 0.13) 0%,
     rgba(106, 9, 134, 0.13) 100%
   );
-  backdrop-filter: blur(40.5px);
+  /* backdrop-filter: blur(40.5px); */
   /* Note: backdrop-filter has minimal browser support */
   border: 2px solid;
   border-image-slice: 1;
